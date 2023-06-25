@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Project tracking intro component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/">
+          <img src="./images/logo.svg" alt="" id="logo" />
+        </a>
+        <button
+          aria-label="open menu"
+          aria-haspopup="true"
+          id="toggle_btn"
+          role="button"
+          aria-controls="nav-links"
+          aria-expanded="false"
+        >
+          <img aria-hidden="true" src="./images/icon-hamburger.svg" alt="" />
+        </button>
+        <ul id="nav-links" class="">
+          <li>
+            <a
+              href="#"
+              class="text-darker w-700 font-barlow-condensed uppercase spaced-sm"
+              >Product</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-darker w-700 font-barlow-condensed uppercase spaced-sm"
+              >Features</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-darker w-700 font-barlow-condensed uppercase spaced-sm"
+              >Pricing</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-light w-700 font-barlow-condensed uppercase spaced-sm"
+              >Login</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="bg">
+        <img src="./images/illustration-devices.svg" alt="" class="main-img" />
+      </div>
+      <div class="content">
+        <p
+          class="font-barlow-condensed text-light uppercase spaced-lg content__intro"
+        >
+          <span class="pill spaced-sm text-lighter w-700">New</span>
+          Monograph Dashboard
+        </p>
+        <h1 class="heading-1 font-barlow-condensed uppercase text-darker">
+          Powerful insights into your team
+        </h1>
+        <p class="font-barlow text-gray content__text">
+          Project planning and time tracking for agile teams
+        </p>
+        <div class="content__footer">
+          <a
+            href="#"
+            class="font-barlow-condensed btn btn-tertiary text-lighter w-700 uppercase spaced-sm"
+            >Schedule a demo</a
+          >
+          <p class="font-barlow-condensed btn uppercase spaced-sm text-light">
+            to see a live preview
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Kehinde</a>.
+      </p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
