@@ -36,7 +36,6 @@ img {
 
 main {
   flex-grow: 1;
-  font-size: clamp(0.9rem, 3vw, 1rem);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -241,6 +240,10 @@ nav {
   font-size: clamp(2rem, 5vw, 4rem);
 }
 
+.content__text {
+  font-size: clamp(0.9rem, 3vw, 1.2rem);
+}
+
 /* content footer */
 .content__footer {
   display: flex;
@@ -359,7 +362,7 @@ nav {
   }
 
   .content__text {
-    width: 45%;
+    width: 60%;
   }
 
   .content__footer {
