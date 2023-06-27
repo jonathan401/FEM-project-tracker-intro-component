@@ -25,9 +25,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  font-family: sans-serif;
+  overflow: hidden;
 }
 
 img {
