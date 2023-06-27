@@ -193,6 +193,7 @@ nav {
 
 /* background image */
 .bg {
+  overflow-x: hidden;
   position: relative;
   padding: 4rem 0;
   z-index: 10;
@@ -203,7 +204,7 @@ nav {
   position: absolute;
   content: "";
   height: 130%;
-  width: 100%;
+  width: 50%;
   background-color: var(--light-grayish-blue);
   z-index: -2;
   border-bottom-left-radius: 3rem;
